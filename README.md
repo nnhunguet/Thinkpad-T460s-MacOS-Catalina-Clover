@@ -38,7 +38,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 
 ## Tips for MacOS
 
-- Make dock's animation faster and with zero delay
+- Make dock animation faster and zero delay
 ```
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
