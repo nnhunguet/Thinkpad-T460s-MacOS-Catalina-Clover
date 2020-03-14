@@ -20,6 +20,41 @@ EFI for Thinkpad T460s (20F9003AUS)
 - Fingerprint Reader: Yes
 - Battery: 3-cell (23Wh) + 3-cell (26Wh)
 
+## What's different from others T460s configs on GitHub
+
+- **VirtualSMC** is used over FakeSMC and ACPIBatteryManager
+> Huge improvement for stability and reliability
+> Battery management is perfect
+- No additional ketxs for semi-supported WLAN cards
+> The BCM94360CS2 is and original Macbook Air card and it's supported out-of-the-box
+
+## Recomended changes for 100% Macbook experience
+
+- Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
+- Change `SMBIOS -> MLB and SystemSerialNumber` to enable iCloud account related features
+- Set `Boot -> Default Boot Volume` to the volume's name itself
+- Check `Boot -> Fast`
+
+## Tips for MacOS
+
+- Make dock's animation faster and with zero delay
+'''
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -float 0.5
+killall Dock
+'''
+- Mount EFI
+'''
+sudo diskutil list
+sudo diskutil mount /dev/diskNsN
+'''
+- Enable HiDPI
+'''
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
+'''
+- Monitor temperatures and power consumption with [HWMonitor](https://github.com/kzlekk/HWSensors/releases)
+> I know it's old and unsupported, but it gets the job done and i really like the design
+
 ## Bios
 
 - `Security -> Security Chip`: **Disabled**;
@@ -40,12 +75,11 @@ EFI for Thinkpad T460s (20F9003AUS)
 - iMessage, FaceTime, App Store, iTunes Store **(change SMBIOS -> MLB and SystemSerialNumber)**
 - Ethernet
 - Onboard audio
-- USB 2.0 / USB 3.0
+- All USB 3.0 ports
 - Battery **very stable and precise capacity left**
 - Trackpad
 - Trackpoint
 - miniDP and HDMI
-- Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
 
 ## What doesn't work
 
@@ -53,6 +87,18 @@ EFI for Thinkpad T460s (20F9003AUS)
 - Trackpad fisical buttons
 - Fingerprint Reader
 
+## Update tracker
+'''
+MacOS: 10.15.3
+Clover: r5105
+Lilu: 1.4.2
+VirtualSMC: 1.1.1
+WhateverGreen: 1.3.7
+AppleALC: 1.4.7
+VoodooPS2Controller: 2.0.2 (I have issues with newer version)
+USBInjectAll: 0.7.1
+IntelMausiEthernet: 2.5.0d0
+'''
 ## Thanks to
 
-All the hackintosh community, in particular you guys on GitHub 
+All the hackintosh community, in particular you guys on GitHub.
