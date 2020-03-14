@@ -32,7 +32,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 - Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
 - Change `SMBIOS -> MLB and SystemSerialNumber` to enable iCloud account related features
 - Set `Boot -> Default Boot Volume` to volume's name itself
-- Check `Boot -> Fast`
+- Check flag `Boot -> Fast`
 
 ## Tips for MacOS
 
@@ -56,18 +56,20 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 
 ## Bios settings (to update)
 
-- `Security -> Security Chip`: **Disabled**;
-- `Memory Protection -> Execution Prevention`: **Enabled**;
-- `Virtualization -> Intel Virtualization Technology`: **Enabled**;
-- `Internal Device Access -> Bottom Cover Tamper Detection`: must be **Disabled**;
+- `Security -> Security Chip` **Disabled**
+- `Memory Protection -> Execution Prevention` **Enabled**
+- `Virtualization -> Intel Virtualization Technology` **Disabled**
+- `Virtualization -> Intel VT-d Feature`: **Enabled**
 - `Anti-Theft -> Current Setting`: **Disabled**;
 - `Anti-Theft -> Computrace -> Current Setting`: **Disabled**;
 - `Secure Boot -> Secure Boot`: **Disabled**;
+- `Intel SGX -> Intel SGX Control`: **Disabled**;
+- `Device Guard`: **Disabled**;
 - `UEFI/Legacy Boot`: **UEFI Only**;
 - `CSM Support`: **No**.
 
 ## What works
-
+`Boot time from Clover to Desktop is 28s`
 - Sleep / Wake
 - Wifi and Bluetooth (BCM94360CS2)
 - **Handoff, Continuity, AirDrop, Sidecar (wireless)**
