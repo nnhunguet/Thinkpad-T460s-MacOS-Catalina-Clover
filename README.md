@@ -54,22 +54,23 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Monitor temperatures and power consumption with [HWMonitor](https://github.com/kzlekk/HWSensors/releases)
 > I know it's old and no longer supported, but it gets the job done and i really like the design
 
-## Bios settings (to update)
+## Bios settings
 
 - `Security -> Security Chip` **Disabled**
 - `Memory Protection -> Execution Prevention` **Enabled**
 - `Virtualization -> Intel Virtualization Technology` **Disabled**
-- `Virtualization -> Intel VT-d Feature`: **Enabled**
-- `Anti-Theft -> Current Setting`: **Disabled**;
-- `Anti-Theft -> Computrace -> Current Setting`: **Disabled**;
-- `Secure Boot -> Secure Boot`: **Disabled**;
-- `Intel SGX -> Intel SGX Control`: **Disabled**;
-- `Device Guard`: **Disabled**;
-- `UEFI/Legacy Boot`: **UEFI Only**;
-- `CSM Support`: **No**.
+- `Virtualization -> Intel VT-d Feature` **Enabled**
+- `Anti-Theft -> Current Setting` **Disabled**
+- `Anti-Theft -> Computrace -> Current Setting` **Disabled**
+- `Secure Boot -> Secure Boot` **Disabled**
+- `Intel SGX -> Intel SGX Control` **Disabled**
+- `Device Guard` **Disabled**
+- `UEFI/Legacy Boot` **UEFI Only**
+- `CSM Support` **No**
 
 ## What works
-`Boot time from Clover to Desktop is 28s`
+
+>Boot time from Clover to Desktop is 28s
 - Sleep / Wake
 - Wifi and Bluetooth (BCM94360CS2)
 - **Handoff, Continuity, AirDrop, Sidecar (wireless)**
