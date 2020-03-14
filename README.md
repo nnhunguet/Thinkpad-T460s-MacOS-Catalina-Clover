@@ -30,7 +30,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 ## Recomended changes for 100% Macbook experience
 
 - Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
-- Change `SMBIOS -> MLB and SystemSerialNumber` to enable iCloud account related features
+- Change `SMBIOS -> BoardSerialNumber and SystemSerialNumber` to enable iCloud account related features
 - Set `Boot -> Default Boot Volume` to volume's name itself
 - Check flag `Boot -> Fast`
 
