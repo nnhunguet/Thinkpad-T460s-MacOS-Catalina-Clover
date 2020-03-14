@@ -25,13 +25,13 @@ EFI for Thinkpad T460s (20F9003AUS)
 - **VirtualSMC** is used over FakeSMC and ACPIBatteryManager
 > Huge improvement for stability and reliability, battery management is perfect
 - No additional ketxs for semi-supported WLAN cards
-> The BCM94360CS2 is and original Macbook Air card and it's supported out-of-the-box
+> BCM94360CS2 is a genuine Macbook Air card and it's supported out-of-the-box
 
 ## Recomended changes for 100% Macbook experience
 
 - Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
 - Change `SMBIOS -> MLB and SystemSerialNumber` to enable iCloud account related features
-- Set `Boot -> Default Boot Volume` to the volume's name itself
+- Set `Boot -> Default Boot Volume` to volume's name itself
 - Check `Boot -> Fast`
 
 ## Tips for MacOS
@@ -98,6 +98,7 @@ VoodooPS2Controller: 2.0.2 (I have issues with newer version)
 USBInjectAll: 0.7.1
 IntelMausiEthernet: 2.5.0d0
 '''
+
 ## Thanks to
 
 All the hackintosh community, in particular you guys on GitHub.
