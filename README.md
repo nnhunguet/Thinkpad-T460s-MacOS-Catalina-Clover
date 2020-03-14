@@ -88,6 +88,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - SD Card Reader
 - Trackpad fisical buttons
 - Fingerprint Reader
+- SIP is disabled and FileVault isn't tested (I don't care about it)
 
 ## Update tracker
 
