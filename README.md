@@ -54,7 +54,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Monitor temperatures and power consumption with [HWMonitor](https://github.com/kzlekk/HWSensors/releases)
 > I know it's old and no longer supported, but it gets the job done and i really like the design
 
-## Bios
+## Bios settings (to update)
 
 - `Security -> Security Chip`: **Disabled**;
 - `Memory Protection -> Execution Prevention`: **Enabled**;
@@ -87,7 +87,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Fingerprint Reader
 
 ## Update tracker
-'''
+
+```
 MacOS: 10.15.3
 Clover: r5105
 Lilu: 1.4.2
@@ -97,7 +98,7 @@ AppleALC: 1.4.7
 VoodooPS2Controller: 2.0.2 (I have issues with newer version)
 USBInjectAll: 0.7.1
 IntelMausiEthernet: 2.5.0d0
-'''
+```
 
 ## Thanks to
 
