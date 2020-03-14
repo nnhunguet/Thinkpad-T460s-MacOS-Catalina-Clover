@@ -23,8 +23,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 ## What's different from others T460s configs on GitHub
 
 - **VirtualSMC** is used over FakeSMC and ACPIBatteryManager
-> Huge improvement for stability and reliability
-> Battery management is perfect
+> Huge improvement for stability and reliability, battery management is perfect
 - No additional ketxs for semi-supported WLAN cards
 > The BCM94360CS2 is and original Macbook Air card and it's supported out-of-the-box
 
@@ -38,22 +37,22 @@ EFI for Thinkpad T460s (20F9003AUS)
 ## Tips for MacOS
 
 - Make dock's animation faster and with zero delay
-'''
+```
 defaults write com.apple.dock autohide-delay -float 0
 defaults write com.apple.dock autohide-time-modifier -float 0.5
 killall Dock
-'''
+```
 - Mount EFI
-'''
+```
 sudo diskutil list
 sudo diskutil mount /dev/diskNsN
-'''
+```
 - Enable HiDPI
-'''
+```
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/master/hidpi.sh)"
-'''
+```
 - Monitor temperatures and power consumption with [HWMonitor](https://github.com/kzlekk/HWSensors/releases)
-> I know it's old and unsupported, but it gets the job done and i really like the design
+> I know it's old and no longer supported, but it gets the job done and i really like the design
 
 ## Bios
 
