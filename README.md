@@ -1,5 +1,7 @@
 # Thinkpad T460s MacOS Catalina with Clover Bootloader
 
+> I know this page is way too long but it has many informations I personally would like to know when looking into someone's EFI
+
 ## Introduction
 
 EFI for Thinkpad T460s (20F9003AUS)
@@ -84,7 +86,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - miniDP and HDMI
 
 ## What doesn't work
-
+> If you have any questions or suggestions feel free to contact me
 - SD Card Reader
 - Trackpad fisical buttons
 - Fingerprint Reader
