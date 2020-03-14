@@ -12,7 +12,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 - Multi-touch: None
 - Storage: 256GB SSD M.2 Opal2
 - Optical: None
-- WLAN + Bluetooth: Intel 8260 ac, 2x2 + BT4.1 **replaced by BCM94360CS2 with NGFF adapter**
+- WLAN + Bluetooth: ~~Intel 8260 ac, 2x2 + BT4.1~~ **replaced by BCM94360CS2 with NGFF adapter**
 - WWAN: WWAN Upgradable (Legacy_Sierra_QMI.kext needed, not tested but should work)
 - Smart Card Reader: None
 - Camera: 720p
@@ -30,7 +30,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 - `Anti-Theft -> Computrace -> Current Setting`: **Disabled**;
 - `Secure Boot -> Secure Boot`: **Disabled**;
 - `UEFI/Legacy Boot`: **UEFI Only**;
-- `CSM Support`: **Yes**.
+- `CSM Support`: **No**.
 
 ## What works
 
