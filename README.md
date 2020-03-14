@@ -30,7 +30,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 ## Recomended changes for 100% Macbook experience
 
 - Use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi) to enable HiDPI
-- Change `SMBIOS -> BoardSerialNumber and SystemSerialNumber` to enable iCloud account related features
+- Change `SMBIOS -> Board Serial Number and System Serial Number` to enable iCloud account related features
 - Set `Boot -> Default Boot Volume` to volume's name itself
 - Check flag `Boot -> Fast`
 
@@ -74,11 +74,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Sleep / Wake
 - Wifi and Bluetooth (BCM94360CS2)
 - **Handoff, Continuity, AirDrop, Sidecar ([wireless](https://www.youtube.com/watch?v=D5yButavaWY))**
-- iMessage, FaceTime, App Store, iTunes Store **(change SMBIOS -> MLB and SystemSerialNumber)**
+- iMessage, FaceTime, App Store, iTunes Store **(change SMBIOS values)**
 - Ethernet
 - Onboard audio
 - All USB 3.0 ports
-- Battery **very stable and precise capacity tracking**
+- Battery **(very stable and precise capacity tracking)**
 - Trackpad
 - Trackpoint
 - miniDP and HDMI
