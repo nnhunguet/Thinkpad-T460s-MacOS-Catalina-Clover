@@ -73,7 +73,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 >Boot time from Clover to Desktop is 28s
 - Sleep / Wake
 - Wifi and Bluetooth (BCM94360CS2)
-- **Handoff, Continuity, AirDrop, Sidecar (wireless)**
+- **Handoff, Continuity, AirDrop, Sidecar ([wireless](https://www.youtube.com/watch?v=D5yButavaWY))**
 - iMessage, FaceTime, App Store, iTunes Store **(change SMBIOS -> MLB and SystemSerialNumber)**
 - Ethernet
 - Onboard audio
