@@ -75,7 +75,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Ethernet
 - Onboard audio
 - All USB 3.0 ports
-- Battery **very stable and precise capacity left**
+- Battery **very stable and precise capacity tracking**
 - Trackpad
 - Trackpoint
 - miniDP and HDMI
@@ -95,7 +95,7 @@ Lilu: 1.4.2
 VirtualSMC: 1.1.1
 WhateverGreen: 1.3.7
 AppleALC: 1.4.7
-VoodooPS2Controller: 2.0.2 (I have issues with newer version)
+VoodooPS2Controller: 2.0.2 (I have issues with newer versions)
 USBInjectAll: 0.7.1
 IntelMausiEthernet: 2.5.0d0
 ```
