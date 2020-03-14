@@ -4,21 +4,21 @@
 
 EFI for Thinkpad T460s (20F9003AUS)
 
-Processor: Intel Core i7-6600U (2C, 2.6 / 3.4GHz, 4MB)vPro
-Graphics: Integrated Intel HD Graphics 520
-Memory: 4GB Soldered + 4GB DIMM
-Display: 14" WQHD (2560x1440) IPS
-Sound Card: Realtek ALC293
-Multi-touch: None
-Storage: 256GB SSD M.2 Opal2
-Optical: None
-WLAN + Bluetooth: Intel 8260 ac, 2x2 + BT4.1 **replaced by BCM94360CS2 with NGFF adapter**
-WWAN: WWAN Upgradable (Legacy_Sierra_QMI.kext needed, not tested but should work)
-Smart Card Reader: None
-Camera: 720p
-Keyboard: Backlit
-Fingerprint Reader: Yes
-Battery: 3-cell (23Wh) + 3-cell (26Wh)
+- Processor: Intel Core i7-6600U (2C, 2.6 / 3.4GHz, 4MB)vPro
+- Graphics: Integrated Intel HD Graphics 520
+- Memory: 4GB Soldered + 4GB DIMM
+- Display: 14" WQHD (2560x1440) IPS
+- Sound Card: Realtek ALC293
+- Multi-touch: None
+- Storage: 256GB SSD M.2 Opal2
+- Optical: None
+- WLAN + Bluetooth: Intel 8260 ac, 2x2 + BT4.1 **replaced by BCM94360CS2 with NGFF adapter**
+- WWAN: WWAN Upgradable (Legacy_Sierra_QMI.kext needed, not tested but should work)
+- Smart Card Reader: None
+- Camera: 720p
+- Keyboard: Backlit
+- Fingerprint Reader: Yes
+- Battery: 3-cell (23Wh) + 3-cell (26Wh)
 
 ## Bios
 
