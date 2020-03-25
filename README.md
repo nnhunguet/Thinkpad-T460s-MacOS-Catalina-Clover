@@ -103,7 +103,7 @@ WhateverGreen: 1.3.7
 AppleALC: 1.4.7
 VoodooPS2Controller: 2.0.2 (I have issues with newer versions)
 USBInjectAll: 0.7.1
-IntelMausiEthernet: 2.5.0d0
+IntelMausi: 1.0.2
 ```
 
 ## Thanks to
