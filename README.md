@@ -90,13 +90,13 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - SD Card Reader
 - Trackpad fisical buttons
 - Fingerprint Reader
-- SIP is disabled and FileVault isn't tested (I don't care about it)
+- SIP is disabled and FileVault isn't tested
 
 ## Update tracker
 
 ```
-MacOS: 10.15.3
-Clover: r5105
+MacOS: 10.15.4
+Clover: r5107
 Lilu: 1.4.2
 VirtualSMC: 1.1.1
 WhateverGreen: 1.3.7
