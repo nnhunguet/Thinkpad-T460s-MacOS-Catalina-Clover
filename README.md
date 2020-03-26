@@ -28,6 +28,7 @@ EFI for Thinkpad T460s (20F9003AUS)
 > Huge improvement for stability and reliability, battery management is perfect
 - No additional ketxs for semi-supported WLAN cards
 > BCM94360CS2 is a genuine Macbook Air card and it's supported out-of-the-box
+- **VoodooPS2** by Acidanthera for trackpad gestures and **physical buttons**
 
 ## Recomended changes for 100% Macbook experience
 
@@ -81,14 +82,12 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 - Onboard audio
 - All USB 3.0 ports
 - Battery **(very stable and precise capacity tracking)**
-- Trackpad
-- Trackpoint
+- Trackpad, Trackpoint, gestures and finally **physical buttons**
 - miniDP and HDMI
 
 ## What doesn't work
 > If you have any questions or suggestions feel free to contact me
 - SD Card Reader
-- Trackpad fisical buttons
 - Fingerprint Reader
 - SIP is disabled and FileVault isn't tested
 
@@ -97,11 +96,11 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/xzhih/one-key-hidpi/mast
 ```
 MacOS: 10.15.4
 Clover: r5107
-Lilu: 1.4.2
+Lilu: 1.4.3
 VirtualSMC: 1.1.1
-WhateverGreen: 1.3.7
-AppleALC: 1.4.7
-VoodooPS2Controller: 2.0.2 (I have issues with newer versions)
+WhateverGreen: 1.3.8
+AppleALC: 1.4.8
+VoodooPS2Controller: 2.1.3
 USBInjectAll: 0.7.1
 IntelMausi: 1.0.2
 ```
