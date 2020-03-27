@@ -1,4 +1,5 @@
 # Thinkpad T460s MacOS Catalina with Clover Bootloader
+# [my original OpenCore buil is live! go check it out](https://github.com/simprecicchiani/Thinkpad-T460s-macOS-OpenCore)
 
 > I know this page is way too long but it has many informations I personally would like to know when looking into someone's EFI
 
